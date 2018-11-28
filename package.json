@@ -1,0 +1,12 @@
+{
+  "author": "Jackson Delahunt",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "description": "Chrome DevTools doesn't set the Host header :O",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "chrome-devtools-host-header",
+  "private": false,
+  "version": "1.0.0"
+}
