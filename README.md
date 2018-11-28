@@ -4,7 +4,7 @@ When Chrome DevTools polls configured network targets, the Host header on calls 
 
 ## Reproducing the bug
 
-Requires Docker and Yarn to be installed.
+Requires Docker to be installed.
 
 ```sh
 git clone git@github.com:sabrehagen/chrome-devtools-host-header.git

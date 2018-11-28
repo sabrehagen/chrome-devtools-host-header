@@ -27,6 +27,6 @@ echo "Requesting '$HOST' with curl"
 curl -H "Host: $HOST" http://$HOST:$PORT
 
 echo
-echo "Open your web browser to chrome://inspect, click Configure, add $HOST:$PORT, click Done, inspect $TARGET container output, and observe 'Host: 127.0.0.1' is set instead of 'Host: $HOST'."
+echo "Open your web browser to chrome://inspect, click Configure, add $HOST:$PORT, click Done, and observe 'Host: 127.0.0.1' is set instead of 'Host: $HOST' in the output below."
 echo
 echo
