@@ -4,7 +4,7 @@ When Chrome DevTools polls configured network targets, the Host header on calls 
 
 ## Reproducing the bug
 
-Requires Docker and Yarn to be installed.
+Requires Docker to be installed.
 
 ```sh
 git clone git@github.com:sabrehagen/chrome-devtools-host-header.git
@@ -14,11 +14,11 @@ cd chrome-devtools-host-header
 
 ## What is the expected behavior?
 
-When polling configured network targets, the Host header on calls to `/json` and `/json/version` should be 'inspect-nginx-proxy'.
+When polling configured network targets, the Host header on calls to `/json` and `/json/version` should be `echo-headers`.
 
 ## What went wrong?
 
-When polling configured network targets, the Host header on calls to `/json` and `/json/version` is '127.0.0.1'.
+When polling configured network targets, the Host header on calls to `/json` and `/json/version` is `127.0.0.1`.
 
 ## Use case
 
